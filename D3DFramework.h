@@ -36,7 +36,7 @@ protected:
 protected:
 	Microsoft::WRL::ComPtr<ID3D11Device>				mspDevice;
 	Microsoft::WRL::ComPtr<ID3D11DeviceContext>			mspDeviceContext{};
-	Microsoft::WRL::ComPtr<IDXGISwapChain>				spSwapChain{};
+	Microsoft::WRL::ComPtr<IDXGISwapChain>				mspSwapChain{};
 
 	Microsoft::WRL::ComPtr<ID3D11Texture2D>				mspRenderTarget{};
 	Microsoft::WRL::ComPtr<ID3D11RenderTargetView>		mspRenderTargetView{};
